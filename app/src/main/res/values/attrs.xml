@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="colores">
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="toolbar_background" format="color"/>
+        <attr name="tamano" format="dimension"/>
+        <attr name="letras" format="color"/>
+
+    </declare-styleable>
+</resources>

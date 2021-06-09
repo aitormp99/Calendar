@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Calendar">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+
+
+        app:abbreviationsBarColor="?attr/backgroundcolor"
+        app:abbreviationsLabelsColor="?attr/letras"
+        app:daysLabelsColor="?attr/letras"
+        app:headerColor="?attr/toolbar_background"
+        app:headerLabelColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        app:pagesColor="?attr/backgroundcolor"
+        app:selectionColor="?attr/toolbar_background"
+        app:selectionLabelColor="?attr/letras"
+        app:todayLabelColor="?attr/toolbar_background" />
+
+</FrameLayout>

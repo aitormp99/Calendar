@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory android:title="AJSUTES SISTEMA">
+        <SwitchPreference
+            android:key="tema"
+            android:title="Tema"
+
+            android:summary="Activar modo noche"
+            android:icon="@drawable/modo_noche_logo"
+             />
+
+    <ListPreference
+        android:key="idioma"
+        android:title="Idioma"
+        android:summary="Elije el idioma"
+        android:icon="@drawable/ic_baseline_language_24"
+        android:entries="@array/idiomas_str"
+        android:entryValues="@array/idiomas_value" />
+    <ListPreference
+        android:key="letra"
+        android:title="Letra"
+        android:summary="Elije el tamaño de letra"
+        android:icon="@drawable/ic_baseline_format_size_24"
+        android:entries="@array/letra"
+        android:entryValues="@array/letra" />
+    </PreferenceCategory>
+
+ </PreferenceScreen>

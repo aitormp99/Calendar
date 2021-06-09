@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="letra">
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+
+    </string-array>
+    <string-array name="idiomas_str">
+
+        <item>Español</item>
+        <item>English</item>
+        <item>Euskera</item>
+
+    </string-array>
+    <string-array name="idiomas_value">
+
+        <item>es</item>
+        <item>en</item>
+        <item>eu</item>
+
+    </string-array>
+</resources>
