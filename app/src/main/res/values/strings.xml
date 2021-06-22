@@ -11,8 +11,22 @@
     <string name="material_calendar_friday">Vi</string>
     <string name="material_calendar_saturday">Sa</string>
     <string name="material_calendar_sunday">Do</string>
-
+    <string name="titulo">Titulo: </string>
+    <string name="descripcion">Descripcion: </string>
+    <string name="dia">Dia: </string>
+    <string name="aceptar">Añadir</string>
+    <string name="hora">Hora:</string>
+    <string name="localizacion">Localizacion:</string>
+    <string name="ErrorCampoIncorrecto">Algun Campo es incorrecto</string>
+    <string name="eventosHoy">Eventos de hoy: </string>
+    <string name="eventoAgregado">Evento agregado correctamente </string>
+    <string name="noEventos">No hay eventos hoy</string>
+    <string name="Eventos">Eventos del dia:</string>
+    <string name="rellenarDia">Rellena el campo de fecha</string>
+    <string name="NotificacionBorrado">Evento borrado correctamente</string>
     <array name="material_calendar_months_array">
+
+
         <item>Enero</item>
         <item>Febrero</item>
         <item>Marzo</item>

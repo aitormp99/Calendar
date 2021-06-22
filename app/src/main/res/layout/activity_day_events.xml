@@ -4,63 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DayEvents">
+    tools:context=".DayEvents"
+    android:background="?attr/backgroundcolor">
 
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <RelativeLayout
-            android:id="@+id/idLayoutFondo1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?attr/toolbar_background"
-            android:elevation="8dp">
-
-            <ImageView
-                android:id="@+id/imagenLogo"
-                android:layout_width="80dp"
-                android:layout_height="73dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginStart="327dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="0dp"
-                android:layout_marginRight="0dp"
-                android:src="@drawable/calendario_logo" />
-
-            <ImageButton
-                android:id="@+id/back"
-                android:layout_width="80dp"
-                android:layout_height="73dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="329dp"
-                android:layout_marginRight="329dp"
-                android:src="@drawable/ic_baseline_home_24" />
-
-
-        </RelativeLayout>
-
-
-    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerEvents"
-        android:layout_width="405dp"
-        android:layout_height="653dp"
+        android:layout_width="343dp"
+        android:layout_height="567dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Eventos"
+        android:textSize="?attr/tamano"
+        android:textColor="?attr/letras"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerEvents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
 </androidx.constraintlayout.widget.ConstraintLayout>

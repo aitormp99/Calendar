@@ -4,26 +4,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Calendar">
+    tools:context=".fragments.Calendar">
 
-    <!-- TODO: Update blank fragment layout -->
-    <com.applandeo.materialcalendarview.CalendarView
-        android:id="@+id/calendarView"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="340dp"
+        android:layout_height="match_parent">
+
+        <com.applandeo.materialcalendarview.CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="414dp"
+            android:layout_height="451dp"
 
 
-        app:abbreviationsBarColor="?attr/backgroundcolor"
-        app:abbreviationsLabelsColor="?attr/letras"
-        app:daysLabelsColor="?attr/letras"
-        app:headerColor="?attr/toolbar_background"
-        app:headerLabelColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
-        app:pagesColor="?attr/backgroundcolor"
-        app:selectionColor="?attr/toolbar_background"
-        app:selectionLabelColor="?attr/letras"
-        app:todayLabelColor="?attr/toolbar_background" />
+            app:abbreviationsBarColor="?attr/backgroundcolor"
+            app:abbreviationsLabelsColor="?attr/letras"
+            app:daysLabelsColor="?attr/letras"
+            app:headerColor="?attr/toolbar_background"
+            app:headerLabelColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+            app:pagesColor="?attr/backgroundcolor"
+            app:selectionColor="?attr/toolbar_background"
+            app:selectionLabelColor="?attr/letras"
+            app:todayLabelColor="?attr/toolbar_background" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calendarView"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_baseline_add_circle_outline_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- TODO: Update blank fragment layout -->
+
 
 </FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="inicio">Sarrera</string>
+    <string name="Mapa">Mapa</string>
+    <string name="calendario">Egutegia</string>
+    <string name="hola">Kaixo</string>
+    <string name="material_calendar_monday">Al</string>
+    <string name="material_calendar_tuesday">As</string>
+    <string name="material_calendar_wednesday">Az</string>
+    <string name="material_calendar_thursday">Og</string>
+    <string name="material_calendar_friday">Or</string>
+    <string name="material_calendar_saturday">Ir</string>
+    <string name="material_calendar_sunday">Ig</string>
+    <string name="titulo">" Izenburua:"</string>
+    <string name="descripcion">" Deskribapena:"</string>
+    <string name="dia">" Eguna:"</string>
+    <string name="aceptar">Gehitu</string>
+    <string name="hora">Ordua:</string>
+    <string name="localizacion">" Kokapena:"</string>
+    <string name="ErrorCampoIncorrecto">" Eremu batzuk gaizki daude"</string>
+    <string name="eventosHoy">" Gaurko ekitaldiak:"</string>
+    <string name="eventoAgregado">" Gertaera behar bezala gehitu da"</string>
+    <string name="noEventos">" Gaur ez dago gertaerarik"</string>
+    <string name="Eventos">" Eguneko gertaerak:"</string>
+    <string name="NotificacionBorrado">" Gertaera ongi ezabatu da"</string>
+    <string name="rellenarDia">Bete data eremua</string>
+</resources>

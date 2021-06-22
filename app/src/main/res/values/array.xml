@@ -10,8 +10,8 @@
     <string-array name="idiomas_str">
 
         <item>Español</item>
-        <item>English</item>
         <item>Euskera</item>
+        <item>Ingles</item>
 
     </string-array>
     <string-array name="idiomas_value">

@@ -39,11 +39,11 @@
 
     </style>
     <style name="grande">
-        <item name="tamano"> 30dp</item>
+        <item name="tamano"> 25dp</item>
     </style>
     <style name="pequeño">
 
-        <item name="tamano"> 10dp</item>
+        <item name="tamano"> 15dp</item>
 
     </style>
 </resources>

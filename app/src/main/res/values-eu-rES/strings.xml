@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="inicio">Home</string>
+    <string name="Mapa">Map</string>
+    <string name="calendario">Calendar</string>
+    <string name="hola">Hellow</string>
+    <string name="material_calendar_monday">Mon</string>
+    <string name="material_calendar_tuesday">Tues</string>
+    <string name="material_calendar_wednesday">Wed</string>
+    <string name="material_calendar_thursday">Thurs</string>
+    <string name="material_calendar_friday">Fri</string>
+    <string name="material_calendar_saturday">Sat</string>
+    <string name="material_calendar_sunday">Sun</string>
+    <string name="titulo">Title:</string>
+    <string name="descripcion">Description:</string>
+    <string name="dia">Day:</string>
+    <string name="aceptar">Add</string>
+    <string name="hora">Hour:</string>
+    <string name="localizacion">" Location: "</string>
+    <string name="ErrorCampoIncorrecto">Some field is wrong</string>
+    <string name="eventosHoy">Today\'s events:</string>
+    <string name="eventoAgregado">Event successfully added</string>
+    <string name="noEventos">No events today</string>
+    <string name="Eventos">Events of the day:</string>
+    <string name="NotificacionBorrado">" Event cleared successfully"</string>
+    <string name="rellenarDia">Fill in the date field</string>
+</resources>

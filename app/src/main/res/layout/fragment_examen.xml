@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Examen"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="@string/titulo"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras" />
+
+            <EditText
+                android:id="@+id/edtTitulo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras"
+                android:backgroundTint="?attr/letras"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_weight="1"
+                android:text="@string/descripcion"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras" />
+
+            <EditText
+                android:id="@+id/edtDescripcion"
+                android:layout_width="299dp"
+                android:layout_height="162dp"
+                android:layout_marginStart="35dp"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras"
+                android:backgroundTint="?attr/letras"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="@string/dia"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras" />
+
+            <EditText
+                android:id="@+id/edtDia"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras"
+                android:hint="22/06/2021"
+                android:textColorHint="?attr/letras"
+                android:backgroundTint="?attr/letras"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="@string/hora"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras" />
+
+            <EditText
+                android:id="@+id/edtHora"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras"
+                android:backgroundTint="?attr/letras"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="@string/localizacion"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras" />
+
+            <EditText
+                android:id="@+id/edtLocalizacion"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:textSize="?attr/tamano"
+                android:textColor="?attr/letras"
+                android:backgroundTint="?attr/letras"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/btnAceptar"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="@string/aceptar" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

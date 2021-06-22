@@ -9,16 +9,18 @@ import java.util.Date;
 public class Event implements Serializable {
     private Integer id;
     private String tipo;
-    private Date date;
+    private String date;
     private Time time;
     private String descripcion;
     private String Titulo;
+    private String localizacion;
 
-    public Event(Integer  id, String tipo, Date date, Time time, String descripcion, String titulo) {
+    public Event(Integer  id, String tipo, String date, Time time, String descripcion, String titulo, String localizacion) {
         this.id = id;
         this.tipo = tipo;
         this.date = date;
         this.time = time;
+        this.localizacion = localizacion;
         this.descripcion = descripcion;
         Titulo = titulo;
     }
@@ -32,7 +34,7 @@ public class Event implements Serializable {
     }
 
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
@@ -52,7 +54,7 @@ public class Event implements Serializable {
         this.tipo = tipo;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
@@ -75,4 +77,11 @@ public class Event implements Serializable {
     public void setId(Integer id) {
         this.id = id;
     }
+    public  void setLocalizacion(String localizacion){
+        this.localizacion = localizacion;
+    }
+    public String getLocalizacion() {
+        return localizacion;
+    }
+
 }
